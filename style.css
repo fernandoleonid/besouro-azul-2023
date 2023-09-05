@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(./img/background-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 96px 16px 96px;
+}
+
+header{
+    background-color: lightblue;
+    height: 50px;
+}
+main{
+    background-color: tomato;
+    flex-grow: 1;
+}
+footer{
+    background-color: blueviolet;
+    height: 50px;
+}
