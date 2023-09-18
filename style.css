@@ -94,3 +94,37 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+/* TABLET */
+@media (max-width:768px){
+    body{
+        padding: 32px 0px 0px 0px;
+        background-image: url(./img/background-tablet.png);
+    }
+    .social-container{
+        display: none;
+    }
+    .filme-container{
+        align-items: center;
+    }
+    .descricao{
+        padding: 60px;
+        justify-content: flex-start;
+        flex-grow: 0;
+    }
+    .descricao p{
+        text-align: center;
+    }
+    .trailers{
+        flex-direction: column;
+    }
+    .trailers img{
+        width: 500px;
+    }
+    .trailers a:nth-child(3){
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
