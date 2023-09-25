@@ -9,9 +9,10 @@
     <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
     <title>Besouro Azul</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
 </head>
 <body>
-    <header>
+    <header id="header">
         <a href="#">Home</a>
         <a href="./trailer.html">Trailer</a>
         <a class="logo-dc" href="https://www.dc.com/">
@@ -19,7 +20,14 @@
         </a>
         <a href="./comic.htm">Comic</a>
         <a href="./shop.html">Shop</a>
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" id="abrir"></i>
+        <i class="fas fa-times" id="fechar"></i>
+        <div class="overlay">
+            <a href="#">Home</a>
+            <a href="./trailer.html">Trailer</a>
+            <a href="./comic.htm">Comic</a>
+            <a href="./shop.html">Shop</a>
+        </div>
     </header>
     <main>
         <div class="filme-container">
